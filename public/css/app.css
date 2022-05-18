@@ -201,6 +201,12 @@ header {
   width: 16.6666666667%;
 }
 
+.container-comics-card .container-card .card-comics h2 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding: 0 20px;
+}
+
 .container-comics-card .container-card .card-comics img {
   padding: 20px;
   -o-object-fit: cover;
@@ -212,12 +218,6 @@ header {
 .container-comics-card .container-card .card-comics img:hover {
   transform: scale(1.1);
   cursor: pointer;
-}
-
-.container-comics-card .container-card .card-comics h2 {
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  padding: 0 20px;
 }
 
 .text-container {

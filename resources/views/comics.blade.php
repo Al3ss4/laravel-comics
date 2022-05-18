@@ -5,21 +5,21 @@
    
     <div class="container-comics-card">
         <div class="container-card">
-            <div class="card-comics">
+  
         
             @foreach($series as $serie)
             
-                
+            <div class="card-comics">
                 <img src="{{ $serie['thumb']}}" alt="{{ $serie['title']}}">
                 
                 <h2>
                     <a href=""> {{ $serie['series']}} </a>
                 </h2>
-            
+                </div>
                 
             @endforeach
         
-            </div>
+            
      
         </div>
         <div class="text-container">
