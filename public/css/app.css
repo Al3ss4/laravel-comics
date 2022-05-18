@@ -40,7 +40,7 @@ header {
 }
 
 .footer-top {
-  background-color: grey;
+  background-color: #0282f9;
 }
 
 .footer-top ul {
@@ -70,7 +70,7 @@ header {
 }
 
 .footer-top ul li a {
-  color: red;
+  color: #ffffff;
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
 }
@@ -119,7 +119,7 @@ header {
 }
 
 .footer-btm {
-  background-color: orange;
+  background-color: #303030;
   z-index: 900;
   padding: 25px 190px;
   height: 90px;
@@ -176,17 +176,26 @@ header {
 }
 
 .container-comics-card {
+  background-color: #1c1c1c;
+  color: white;
   margin: 0px 0px;
   padding: 30px 90px;
 }
 
-.container-comics-card .container-comics {
+.container-comics-card .container-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 17px;
+}
+
+.container-comics-card .container-card .card-comics {
   display: flex;
   flex-direction: column;
   width: 16.6666666667%;
 }
 
-.container-comics-card .container-comics img {
+.container-comics-card .container-card .card-comics img {
   padding: 20px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -194,12 +203,12 @@ header {
      object-position: 0% 0%;
 }
 
-.container-comics-card .container-comics img:hover {
+.container-comics-card .container-card .card-comics img:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
 
-.container-comics-card .container-comics h2 {
+.container-comics-card .container-card .card-comics h2 {
   text-transform: uppercase;
   font-size: 0.9rem;
   padding: 0 20px;
