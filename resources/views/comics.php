@@ -1,14 +1,7 @@
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    test comics
-</body>
-</html>
+
+
+
+    <h1>Characters</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit saepe, quo facilis vero aliquam architecto iste doloribus at tenetur! Alias quam inventore enim consectetur magnam. Rerum aliquid voluptatum mollitia cumque.</p>

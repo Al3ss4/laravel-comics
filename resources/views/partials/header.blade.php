@@ -6,7 +6,7 @@
     <div class="nav-bar">
       <ul>
         <li><a href="#">CHARACTERS</a></li>
-        <li><a href="#">COMICS</a></li>
+        <li><a href="/comics"> COMICS</a></li>
         <li><a href="#">MOVIES</a></li>
         <li><a href="#">TV</a></li>
         <li><a href="#">GAMES</a></li>

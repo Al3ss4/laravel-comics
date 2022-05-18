@@ -5,6 +5,177 @@
 }
 
 a {
+  color: red;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  min-height: 60px;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.logo img {
+  width: 70px;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar ul li {
   text-decoration: none;
+  list-style: none;
+  padding: 0 20px;
+}
+
+.nav-bar ul li a {
+  color: #67626a;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.nav-bar ul li a:hover {
+  color: black;
+  border-bottom: 2px solid white;
+}
+
+.footer-top {
+  background-color: grey;
+}
+
+.footer-top ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+
+.footer-top ul li {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer-top ul li img {
+  width: 80px;
+  padding: 0 10px;
+}
+
+.footer-top ul li .img-shop {
+  width: 60px;
+}
+
+.footer-top ul li .img-digital-comics {
+  width: 70px;
+}
+
+.footer-top ul li a {
+  color: red;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.footer-middle {
+  background-image: url(/img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  padding: 50px 200px;
+}
+
+.footer-middle .link-merchandise {
+  display: flex;
+}
+
+.footer-middle .link-merchandise h3 {
+  color: white;
+  margin: 10px 20px;
+}
+
+.footer-middle ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+}
+
+.footer-middle ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-middle ul li a {
+  color: #576064;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.footer-middle img {
+  width: 500px;
+  padding: 0 20px;
+  position: absolute;
+  top: -60px;
+  right: 80px;
+}
+
+.footer-btm {
+  background-color: orange;
+  z-index: 900;
+  padding: 25px 190px;
+  height: 90px;
+}
+
+.footer-btm .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer-btm h3 {
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #0282f9;
+  width: 11%;
+  display: inline-block;
+}
+
+.footer-btm h2 {
+  color: #0282f9;
+  margin-right: 10px;
+  line-height: 45px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.padding {
+  padding: 5px;
+}
+
+.jumbo-space {
+  height: 400px;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.jumbo-space .series {
+  color: white;
+  padding: 10px 17px;
+  background-color: #0282f9;
+  width: 13%;
+  position: absolute;
+  bottom: -20px;
+  left: 165px;
+  z-index: 999;
 }
 
