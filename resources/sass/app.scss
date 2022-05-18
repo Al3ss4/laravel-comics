@@ -5,9 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-a{
-    color:red;
-}
+
+
+
 @import "./partials/header";
 @import "./partials/footer";
 @import "./partials/jumbotron";
+@import "./partials/comics";
+@import "./partials/main";

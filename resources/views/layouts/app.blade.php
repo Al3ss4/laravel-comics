@@ -13,7 +13,7 @@
     </header>
     <main>
         @include ('partials/jumbo')
-       
+        @yield('content')
     </main>
     <footer>
     @include('partials/footer')

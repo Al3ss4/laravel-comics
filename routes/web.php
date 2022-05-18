@@ -18,6 +18,11 @@ Route::get('/', function () {
 });
 
 Route::get('/comics', function () {
-    return view('comics');
+    $comics = config('comics');
+    $data = ['series' => $comics];
+
+
+    return view('comics', $data);
 });
+
 
