@@ -25,10 +25,10 @@ Route::get('/comics', function () {
     return view('comics', $data);
 });
 
-Route::get('comics/detail', function () {
+Route::get('comics/detail/{id}', function ($id) {
 
     $comics = config('comics');
-    $data = ['serie' => $comics[0]];
+    $data = ['serie' => $comics[$id]];
 
 
     return view('detail', $data);

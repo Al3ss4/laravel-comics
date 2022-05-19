@@ -2,7 +2,7 @@
 
 
 @section('detail')
- @dump($serie)
+ {{-- @dump($serie) --}}
     <div class="container-comics-card">
         <div class="container-card">
 

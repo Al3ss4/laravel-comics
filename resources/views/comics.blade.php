@@ -7,13 +7,13 @@
         <div class="container-card">
 
 
-            @foreach($series as $serie)
-
+            @foreach($series as $key=>$serie)
+            {{-- @dump($key, $serie) --}}
             <div class="card-comics">
                 <img src="{{ $serie['thumb']}}" alt="{{ $serie['title']}}">
 
                 <h2>
-                    <a href="/comics/detail"> {{ $serie['series']}} </a>
+                    <a href="/comics/detail/{{$key}}" > {{ $serie['series']}} </a>
                 </h2>
                 </div>
 
