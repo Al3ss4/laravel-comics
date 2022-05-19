@@ -25,4 +25,12 @@ Route::get('/comics', function () {
     return view('comics', $data);
 });
 
+Route::get('comics/detail', function () {
+
+    $comics_detail = config('comics-detail');
+    $data = ['series' => $comics_detail[0]];
+
+
+    return view('detail', $data);
+});
 
