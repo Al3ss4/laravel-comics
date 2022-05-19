@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', $serie["title"])
 
 @section('detail')
  {{-- @dump($serie) --}}
