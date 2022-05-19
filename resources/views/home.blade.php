@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 
-@section('detail')
+
 @section('content')
 
     <div class="container-alert">
