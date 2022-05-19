@@ -13,7 +13,7 @@
                 <img src="{{ $serie['thumb']}}" alt="{{ $serie['title']}}">
 
                 <h2>
-                    <a href="/comics/detail/{{$key}}" > {{ $serie['series']}} </a>
+                    <a href="/comics/detail/{{$key+1}}" > {{ $serie['series']}} </a>
                 </h2>
                 </div>
 

@@ -25,12 +25,16 @@ Route::get('/comics', function () {
     return view('comics', $data);
 });
 
-Route::get('comics/detail/{id}', function ($id) {
-
+Route::get('comics/detail/{id?}', function ($id = null) {
     $comics = config('comics');
-    $data = ['serie' => $comics[$id]];
+    if (!$id || !is_numeric($id)){
+        $data = ['series' => $comics];
+        return view('comics', $data);
+    }
 
-
+    $data = ['serie' => $comics[$id-1]];
     return view('detail', $data);
 });
+
+
 
