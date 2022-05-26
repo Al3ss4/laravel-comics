@@ -10,7 +10,7 @@
             @foreach($series as $key=>$serie)
             {{-- @dump($key, $serie) --}}
             <div class="card-comics">
-                <img src="{{ $serie['thumb']}}" alt="{{ $serie['title']}}">
+                <img src="{{ $serie['thumb']}}" alt="{{ $serie['title']}}" >
 
                 <h2>
                     <a href="/comics/detail/{{$key+1}}" > {{ $serie['series']}} </a>
